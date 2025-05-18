@@ -17,13 +17,11 @@ The Comprehensive Bank Loan Dashboard is a data-driven Power BI project built to
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
+- [Project Overview](http://localhost:8502/)
 - [Features](#features)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Contributing](#contributing)
+- [Results](http://localhost:8502/)
 - [License](#license)
 
 ## Project Overview
