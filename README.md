@@ -39,6 +39,8 @@ The goal of this project is to analyze the factors influencing loan approvals an
 ## Dataset
 
 The dataset used for this analysis is typically sourced from public repositories like Kaggle and contains information about applicants' demographics, financial status, and loan outcomes.
+## Model 
+![image](https://github.com/user-attachments/assets/43061eaa-5e5f-48fd-b1a4-2d5df6e1a918)
 
 ## Installation
 
