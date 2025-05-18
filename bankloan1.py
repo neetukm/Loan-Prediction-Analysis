@@ -7,7 +7,7 @@ df = pd.read_csv("cl_train_loan_eligibility.csv")  # Your dataset
 model = joblib.load("rf_model.pkl")
 
 st.set_page_config(page_title="Loan Eligibility App", layout="centered")
-st.title("🏦 Loan Eligibility Prediction")
+st.title("🏦 Loan Prediction Analysis")
 
 # Step 1: Filter by Loan_ID
 loan_ids = df['Loan_ID'].unique().tolist()
