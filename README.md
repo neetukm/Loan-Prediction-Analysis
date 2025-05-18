@@ -49,7 +49,7 @@ The dataset used for this analysis is typically sourced from public repositories
    git clone https://github.com/neetukm/Loan-Prediction-Analysis.git
    cd Loan-Prediction-Analysis
    ```
-2. (Optional) Create a virtual environment and activate it:
+2.  A virtual environment and activate it:
    ```bash
    python3 -m venv venv
    source venv/bin/activate
