@@ -14,3 +14,71 @@ The Comprehensive Bank Loan Dashboard is a data-driven Power BI project built to
 ## Third Dashboard
 ![loan_performance_details](https://github.com/user-attachments/assets/494e7caa-d57a-4a38-9899-d6cd2d409311)
 
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Dataset](#dataset)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Overview
+
+The goal of this project is to analyze the factors influencing loan approvals and build predictive models to assist financial institutions in making data-driven loan approval decisions.
+
+## Features
+
+- Exploratory Data Analysis (EDA) of loan datasets.
+- Data cleaning and preprocessing.
+- Feature engineering.
+- Implementation and comparison of various machine learning models.
+- Visualization of results and insights.
+
+## Dataset
+
+The dataset used for this analysis is typically sourced from public repositories like Kaggle and contains information about applicants' demographics, financial status, and loan outcomes.
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/neetukm/Loan-Prediction-Analysis.git
+   cd Loan-Prediction-Analysis
+   ```
+2. (Optional) Create a virtual environment and activate it:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+Open the Jupyter Notebooks in your preferred environment:
+```bash
+jupyter notebook
+```
+Run the notebooks step by step to follow the data analysis and modeling process.
+
+## Results
+
+The repository includes visualizations and model performance metrics. For detailed results, refer to the output cells and result sections in the Jupyter Notebooks.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or new features.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+**Author:** [neetukm](https://github.com/neetukm)
