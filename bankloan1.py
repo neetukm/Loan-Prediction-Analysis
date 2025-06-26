@@ -1,10 +1,29 @@
-# import streamlit as st
-# import pandas as pd
-# import joblib
-
+import streamlit as st
+import pandas as pd
+import joblib
+import pickle
 # # Load data and model
 # df = pd.read_csv("cl_train_loan_eligibility.csv")  # Your dataset
 # model = joblib.load("rf_model.pkl")
+
+
+
+# Page Config (Must be First Streamlit Command)
+st.set_page_config(page_title="Loan Eligibility App", layout="wide")
+
+# Load Data
+@st.cache_data
+def load_data():
+    return pd.read_csv('cl_train_loan_eligibility.csv')  # Update path if local testing
+
+# Load Pre-trained Model
+@st.cache_resource
+def load_model():
+    with open('rf_model.pkl', 'rb') as f:   # Update path if local testing
+        return pickle.load(f)
+
+data = load_data()
+model = load_model()
 
 # st.set_page_config(page_title="Loan Eligibility App", layout="centered")
 # st.title("🏦 Loan Prediction Analysis")
@@ -77,11 +96,11 @@ import pandas as pd
 import joblib
 
 # Load dataset and model
-df = pd.read_csv("cl_train_loan_eligibility.csv")
-model = joblib.load("rf_model.pkl")
+# df = pd.read_csv("cl_train_loan_eligibility.csv")
+# model = joblib.load("rf_model.pkl")
 
-st.set_page_config(page_title="Loan Eligibility App", layout="centered")
-st.title("🏦 Loan Prediction Analysis")
+# st.set_page_config(page_title="Loan Eligibility App", layout="centered")
+# st.title("🏦 Loan Prediction Analysis")
 
 # Step 1: Filter by Loan_ID
 loan_ids = df['Loan_ID'].unique().tolist()
