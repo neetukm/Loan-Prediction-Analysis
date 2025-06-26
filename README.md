@@ -17,7 +17,7 @@ The Comprehensive Bank Loan Dashboard is a data-driven Power BI project built to
 
 ## Table of Contents
 
-- [Project Overview](http://localhost:8502/)
+- [Project Overview streamlit app](https://loan-prediction-analysis-wgkydg64mncvfpwlfvbpjm.streamlit.app/)
 - [Features](#features)
 - [Dataset](#dataset)
 - [Installation](#installation)
